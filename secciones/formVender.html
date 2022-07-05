@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>G - Compras/Ventas</title>
+  </head>
+  <body>
+    <header class="container__header">
+      <div class="cont_header_up">
+        <a href="/index.html">
+          <div class="cont_titl_log">
+            <div class="cont_title"><h3>Shop-G</h3></div>
+            <div class="logo_cont">
+              <img
+                class="logo_img"
+                src="/medias/Logo_Nav.svg"
+                alt="logo del Nav"
+              />
+            </div>
+          </div>
+        </a>
+        <div class="cont_form_buscar">
+          <a href="#"
+            ><div class="cont_icon_buscar">
+              <img
+                class="icon_Buscar"
+                src="/medias/icono-Buscar.svg"
+                alt=""
+              /></div
+          ></a>
+          <div class="cont_input_buscar">
+            <input
+              class="input_buscar"
+              type="search"
+              name="buscador"
+              id=""
+              placeholder="Buscar articulos"
+            />
+          </div>
+        </div>
+
+        <div class="cont_rsocial">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/">
+                <img
+                  class="icono_Rsocial"
+                  src="/medias/Icono_Facebook.svg"
+                  alt="icono de Icono_Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/">
+                <img
+                  class="icono_Rsocial"
+                  src="/medias/icono-twitter.svg"
+                  alt="icono de Icono_twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/">
+                <img
+                  class="icono_Rsocial"
+                  src="/medias/icono-Instagram.svg"
+                  alt="icono de Icono_Instagram"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="cont_header_down">
+        <nav>
+          <div class="cont_menu1">
+            <ul>
+              <li><a href="#">Categorias</a></li>
+              <li><a href="#">Ofertas</a></li>
+              <li><a href="/secciones/formVender.html">Vender</a></li>
+              <li><a href="/secciones/quienesSomos.html">Quines somos?</a></li>
+              <li><a href="/secciones/formContacto.html">Contacto</a></li>
+              <li><a href="#">Ayuda</a></li>
+            </ul>
+          </div>
+          <div class="cont_menu2">
+            <div>
+              <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="/secciones/formRegistro.html">Registrarse</a></li>
+                <li><a href="#">Compras</a></li>
+              </ul>
+            </div>
+            <div class="cont_IconoCarr">
+              <a href="/secciones/carrito.html"
+                ><img
+                  class="img_Carr"
+                  src="/medias/Icono Carrito.svg"
+                  alt="icono Carrito"
+              /></a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- fin header -->
+
+    <main>
+      <section class="main__formVender_cont">
+        <aside class="formVenderpublicidad__cont">
+          <img
+            class="formVenderpublicidad__img"
+            src="/medias/Publicidad01.jpg"
+            alt="imgPublicidad01"
+          />
+        </aside>
+        <form action="" method="get" class="formVender__cont">
+          <h3>Fomulario de Carga de Productos</h3>
+          <label for="Categorias"> Categorias</label>
+          <select name="catergoría" id="catergoría">
+            <option value="Tecnología">Tecnología</option>
+            <option value="Moda">Moda</option>
+          </select>
+
+          <label for="color"> Color</label>
+          <select name="color" id="color">
+            <option value="rojo">Rojo</option>
+            <option value="verde">Verde</option>
+          </select>
+
+          <label for="estado">Estado</label>
+          <select name="estado" id="estado">
+            <option value="usado">Usado</option>
+            <option value="nuevo">Nuevo</option>
+          </select>
+
+          <label for="tipoPago">Pagos aceptados</label>
+          <div class="formVender__check_cont">
+            <div class="formVender__Check">
+              <label for="contado">Contado</label>
+              <input type="checkbox" name="contado" id="contado" />
+            </div>
+
+            <div class="formVender__Check">
+              <label for="tarjeta">Tarjeta</label>
+              <input type="checkbox" name="tarjeta" id="tarjeta" />
+            </div>
+          </div>
+          <label for="stock">Stock</label>
+          <input type="number" name="stock" id="stock" required />
+
+          <label for="precio">Precio del producto</label>
+          <input type="number" name="precio" id="precio" required />
+
+          <label for="titulo">Titulo del Articulo:</label>
+          <input type="text" name="titulo" id="titulo" required />
+          <label for="descripcion">Descripcion del Producto</label>
+          <textarea
+            name="descripcion"
+            id="descripcion"
+            cols="30"
+            rows="10"
+          ></textarea>
+
+          <div class="formVender__condiciones">
+            <small for="condiciones">Acepta terminos y condiciones</small>
+            <input type="checkbox" name="condiciones" id="condiciones" />
+          </div>
+          <button type="submit" class="formRegist__buttonEnviar">
+            Guardar
+          </button>
+          <button type="reset" class="formRegist__buttonEnviar">
+            Cancelar
+          </button>
+        </form>
+        <aside class="formVenderpublicidad__cont">
+          <img
+            class="formVenderpublicidad__img"
+            src="/medias/Publicidad02.jpg"
+            alt="imgPublicidad01"
+          />
+        </aside>
+      </section>
+
+      <!-- Section Art Destacados -->
+      <section class="artDestacados__cont">
+        <!-- Articulo 1 -->
+        <div class="artTitle__cont"><h2>Articulos Destacadas</h2></div>
+
+        <div class="tarjetas__Cont">
+          <div class="tarjetaArt__cont">
+            <a href="#" class="tarjetaArt__link">
+              <small> Apple iPhone 13 Pro Max (256 GB) - Azul Sierra </small>
+            </a>
+            <div class="tarjetaArt__contImg">
+              <img
+                class="tarjetaArt__Img"
+                src="/medias/IMG_Articulo1-1.jpg"
+                alt="img articulo"
+              />
+            </div>
+            <div class="tarjetaArt__descrip">
+              <h3>$105.000</h3>
+              <small>6 Cuotas sin interes</small>
+              <small>Envio Gratuito</small>
+            </div>
+          </div>
+
+          <!-- Articulo 2 -->
+
+          <div class="tarjetaArt__cont">
+            <a href="#" class="tarjetaArt__link">
+              <small>
+                Teclado gamer HyperX Alloy Origins 60 QWERTY Red inglés US color
+                negro con luz RGB</small
+              >
+            </a>
+            <div class="tarjetaArt__contImg">
+              <img
+                class="tarjetaArt__Img"
+                src="/medias/IMG_Articulo2.jpg"
+                alt="img articulo"
+              />
+            </div>
+            <div class="tarjetaArt__descrip">
+              <h3>$30.000</h3>
+              <small>6 Cuotas sin interes</small>
+              <small>Envio Gratuito</small>
+            </div>
+          </div>
+
+          <!-- Articulo 3 -->
+
+          <div class="tarjetaArt__cont">
+            <a href="#" class="tarjetaArt__link">
+              <small>
+                Canon PowerShot SX SX420 IS compacta avanzada color negro
+              </small>
+            </a>
+            <div class="tarjetaArt__contImg">
+              <img
+                class="tarjetaArt__Img"
+                src="/medias/IMG_Articulo3.jpg"
+                alt="img articulo"
+              />
+            </div>
+            <div class="tarjetaArt__descrip">
+              <h3>$200.000</h3>
+              <small>9 Cuotas sin interes</small>
+              <small>Envio Gratuito</small>
+            </div>
+          </div>
+
+          <!-- Articulo 4 -->
+
+          <div class="tarjetaArt__cont">
+            <a href="#" class="tarjetaArt__link">
+              <small>
+                Zapatillas Jaguar Oficial Art. #8575 34 Al 44 Hombre Y Mujer
+              </small>
+            </a>
+            <div class="tarjetaArt__contImg">
+              <img
+                class="tarjetaArt__Img"
+                src="/medias/IMG_Articulo4.jpg"
+                alt="img articulo"
+              />
+            </div>
+            <div class="tarjetaArt__descrip">
+              <h3>$100.000</h3>
+              <small>10 Cuotas sin interes</small>
+              <small>Envio Gratuito</small>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- inincio Footer -->
+    <footer>
+      <div class="footer__cont_up">
+        <div class="footer_ContLogo">
+          <a href="/index.html">
+            <div class="cont_titl_log">
+              <div class="cont_title"><h3>Shop-G</h3></div>
+              <div class="logo_cont">
+                <img
+                  class="logo_img"
+                  src="/medias/Logo_Nav.svg"
+                  alt="logo del Nav"
+                />
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <nav class="footer__ContMenu">
+          <div class="footer__menu">
+            <h4>Menu</h4>
+            <ul>
+              <li><a href="/secciones/formContacto.html">Contacto</a></li>
+              <li><a href="/secciones/formVender.html">Vender</a></li>
+              <li><a href="/secciones/quienesSomos.html">Quines somos?</a></li>
+              <li><a href="/secciones/formRegistro.html">Registrarse</a></li>
+            </ul>
+          </div>
+          <div class="footer__DatosCantacto">
+            <h4>Datos de Contacto</h4>
+
+            <p><em>Tel: (0381) - 4333555</em></p>
+            <p><em> E-mail: gabrielcano.86@gmail.com </em></p>
+            <p><em>Direccion: calle Fernando Paz 1568 - SM de Tucumán</em></p>
+          </div>
+        </nav>
+
+        <div class="footer__ContRsocial">
+          <ul class="footer__contRsocial_list">
+            <li>
+              <a href="https://www.facebook.com/">
+                <img
+                  class="icono_Rsocial"
+                  src="/medias/Icono_Facebook.svg"
+                  alt="icono de Icono_Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/">
+                <img
+                  class="icono_Rsocial"
+                  src="/medias/icono-twitter.svg"
+                  alt="icono de Icono_twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/">
+                <img
+                  class="icono_Rsocial"
+                  src="/medias/icono-Instagram.svg"
+                  alt="icono de Icono_Instagram"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__cont_down">
+        <small>&copy Derechos reservados a Gabriel Eduardo Cano</small>
+      </div>
+    </footer>
+  </body>
+</html>

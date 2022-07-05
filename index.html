@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <title>Shop-G</title>
+  </head>
+  <body>
+    <header class="container__header">
+      <div class="cont_header_up">
+        <nav
+          class="navbar navbar-expand-lg d-sm-none d-md-none d-xl-none header__menu_hamburg"
+        >
+          <div class="container">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./secciones/formVender.html">Vender</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./secciones/formContacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./secciones/quienesSomos.html">Quienes somos?</a>
+                </li>
+                <li class="nav-item">
+                  <div class="cont_form_buscar">
+                    <a href="#"
+                      ><div class="cont_icon_buscar">
+                        <img
+                          class="icon_Buscar"
+                          src="./medias/icono-Buscar.svg"
+                          alt=""
+                        /></div
+                    ></a>
+                    <div class="cont_input_buscar">
+                      <input
+                        class="input_buscar"
+                        type="search"
+                        name="buscador"
+                        id=""
+                        placeholder="Buscar articulos"
+                      />
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <a href="./index.html">
+          <div class="cont_titl_log">
+            <div class="cont_title"><h3>Shop-G</h3></div>
+            <div class="logo_cont">
+              <img
+                class="logo_img"
+                src="./medias/Logo_Nav.svg"
+                alt="logo del Nav"
+              />
+            </div>
+          </div>
+        </a>
+        <div class="cont_form_buscar d-none d-sm-flex">
+          <a href="#"
+            ><div class="cont_icon_buscar">
+              <img
+                class="icon_Buscar"
+                src="./medias/icono-Buscar.svg"
+                alt=""
+              /></div
+          ></a>
+          <div class="cont_input_buscar">
+            <input
+              class="input_buscar"
+              type="search"
+              name="buscador"
+              id=""
+              placeholder="Buscar articulos"
+            />
+          </div>
+        </div>
+
+        <div class="cont_rsocial">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/">
+                <img
+                  class="icono_Rsocial"
+                  src="./medias/Icono_Facebook.svg"
+                  alt="icono de Icono_Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/">
+                <img
+                  class="icono_Rsocial"
+                  src="./medias/icono-twitter.svg"
+                  alt="icono de Icono_twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/">
+                <img
+                  class="icono_Rsocial"
+                  src="./medias/icono-Instagram.svg"
+                  alt="icono de Icono_Instagram"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="cont_header_down">
+        <nav>
+          <div class="cont_menu1">
+            <ul>
+              <li class="menu1__Option">
+                <a href="#">Categorias</a>
+              </li>
+              <li class="menu1__Option"><a href="#">Ofertas</a></li>
+              <li><a href="./secciones/formVender.html">Vender</a></li>
+              <li>
+                <a href="./secciones/quienesSomos.html">Quienes somos?</a>
+              </li>
+              <li><a href="./secciones/formContacto.html">Contacto</a></li>
+              <li class="menu1__Option"><a href="#">Ayuda</a></li>
+            </ul>
+          </div>
+          <div class="cont_menu2">
+            <div>
+              <ul>
+                <li><a href="#">Login</a></li>
+                <li>
+                  <a href="./secciones/formRegistro.html">Registrarse</a>
+                </li>
+                <li><a href="#">Compras</a></li>
+              </ul>
+            </div>
+            <div class="cont_IconoCarr">
+              <a href="./secciones/carrito.html"
+                ><img
+                  class="img_Carr"
+                  src="./medias/Icono Carrito.svg"
+                  alt="icono Carrito"
+              /></a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <div class="subt__Section"><h2>Categorias Destacadas</h2></div>
+      <section class="section__categ">
+        <div class="categ__cont">
+          <div class="categ__contImg">
+            <a href="#" class="categ__link"> Deportes </a>
+            <img
+              class="categ__img"
+              src="./medias/img_productos_circulo1.jpg"
+              alt="img_Categorias"
+            />
+          </div>
+
+          <div class="categ__contImg">
+            <a href="#" class="categ__link"> Belleza </a>
+            <img
+              class="categ__img"
+              src="./medias/img_productos_circulo2.jpg"
+              alt="img_Categorias"
+            />
+          </div>
+
+          <div class="categ__contImg circulo__none">
+            <a href="#" class="categ__link"> Tecnología </a>
+            <img
+              class="categ__img"
+              src="./medias/img_productos_circulo3.jpg"
+              alt="img_Categorias"
+            />
+          </div>
+
+          <div class="categ__contImg">
+            <a href="#" class="categ__link"> Moda </a>
+            <img
+              class="categ__img"
+              src="./medias/img_productos_circulo4.jpg"
+              alt="img_Categorias"
+            />
+          </div>
+
+          <div class="categ__contImg">
+            <a href="#" class="categ__link"> Libros </a>
+            <img
+              class="categ__img"
+              src="./medias/img_productos_circulo5.jpg"
+              alt="img_Categorias"
+            />
+          </div>
+
+          <div class="categ__contImg">
+            <a href="#" class="categ__link"> Muebles </a>
+            <img
+              class="categ__img"
+              src="./medias/img_productos_circulo6.jpg"
+              alt="img_Categorias"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Art Destacados -->
+      <div class="subt__Section"><h2>Articulos Destacadas</h2></div>
+      <section class="artDestacados__cont">
+        <!-- Articulo 1 -->
+
+        <div class="tarjetas__Cont">
+          <div class="tarjetaArt__cont">
+            <a href="#" class="tarjetaArt__link">
+              <small> Apple iPhone 13 Pro Max (256 GB) - Azul Sierra </small>
+            </a>
+            <div class="tarjetaArt__contImg">
+              <img
+                class="tarjetaArt__Img"
+                src="./medias/IMG_Articulo1-1.jpg"
+                alt="img articulo"
+              />
+            </div>
+            <div class="tarjetaArt__descrip">
+              <h3>$105.000</h3>
+              <small>6 Cuotas sin interes</small>
+              <small>Envio Gratuito</small>
+            </div>
+          </div>
+
+          <!-- Articulo 2 -->
+
+          <div class="tarjetaArt__cont">
+            <a href="#" class="tarjetaArt__link">
+              <small>
+                Teclado gamer HyperX Alloy Origins 60 QWERTY Red inglés US color
+                negro con luz RGB</small
+              >
+            </a>
+            <div class="tarjetaArt__contImg">
+              <img
+                class="tarjetaArt__Img"
+                src="./medias/IMG_Articulo2.jpg"
+                alt="img articulo"
+              />
+            </div>
+            <div class="tarjetaArt__descrip">
+              <h3>$30.000</h3>
+              <small>6 Cuotas sin interes</small>
+              <small>Envio Gratuito</small>
+            </div>
+          </div>
+
+          <!-- Articulo 3 -->
+
+          <div class="tarjetaArt__cont">
+            <a href="#" class="tarjetaArt__link">
+              <small>
+                Canon PowerShot SX SX420 IS compacta avanzada color negro
+              </small>
+            </a>
+            <div class="tarjetaArt__contImg">
+              <img
+                class="tarjetaArt__Img"
+                src="./medias/IMG_Articulo3.jpg"
+                alt="img articulo"
+              />
+            </div>
+            <div class="tarjetaArt__descrip">
+              <h3>$200.000</h3>
+              <small>9 Cuotas sin interes</small>
+              <small>Envio Gratuito</small>
+            </div>
+          </div>
+
+          <!-- Articulo 4 -->
+
+          <div class="tarjetaArt__cont">
+            <a href="#" class="tarjetaArt__link">
+              <small>
+                Zapatillas Jaguar Oficial Art. #8575 34 Al 44 Hombre Y Mujer
+              </small>
+            </a>
+            <div class="tarjetaArt__contImg">
+              <img
+                class="tarjetaArt__Img"
+                src="./medias/IMG_Articulo4.jpg"
+                alt="img articulo"
+              />
+            </div>
+            <div class="tarjetaArt__descrip">
+              <h3>$100.000</h3>
+              <small>10 Cuotas sin interes</small>
+              <small>Envio Gratuito</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Art Mas Vendidos -->
+      <div class="subt__Section"><h2>Articulos Mas Vendidos</h2></div>
+
+      <div class="card-group mb-1 artmasVend__ContCard">
+        <div class="row g-0 artmasVend__Card col-md-6">
+          <div class="col-md-4">
+            <img
+              src="/medias/img_Art_Mas_Vendidos_01.JPG"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row g-0 artmasVend__Card col-md-6">
+          <div class="col-md-4">
+            <img
+              src="/medias/img_Art_Mas_Vendidos_02.JPG"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row g-0 artmasVend__Card col-md-6">
+          <div class="col-md-4">
+            <img
+              src="/medias/img_Art_Mas_Vendidos_03.JPG"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-0 artmasVend__Card col-md-6">
+          <div class="col-md-4">
+            <img
+              src="/medias/img_Art_Mas_Vendidos_04.JPG"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row g-0 artmasVend__Card col-md-6">
+          <div class="col-md-4">
+            <img
+              src="/medias/img_Art_Mas_Vendidos_05.JPG"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row g-0 artmasVend__Card col-md-6">
+          <div class="col-md-4">
+            <img
+              src="/medias/img_Art_Mas_Vendidos_06.JPG"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- inincio Footer -->
+    <footer>
+      <div class="footer__cont_up">
+        <div class="footer_ContLogo">
+          <a href="./index.html">
+            <div class="cont_titl_log">
+              <div class="cont_title"><h3>Shop-G</h3></div>
+              <div class="logo_cont">
+                <img
+                  class="logo_img"
+                  src="./medias/Logo_Nav.svg"
+                  alt="logo del Nav"
+                />
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <nav class="footer__ContMenu">
+          <div class="footer__menu">
+            <h4>Menu</h4>
+            <ul>
+              <li><a href="./secciones/formContacto.html">Contacto</a></li>
+              <li><a href="./secciones/formVender.html">Vender</a></li>
+              <li><a href="./secciones/quinesSomos.html">Quienes somos?</a></li>
+              <li><a href="./secciones/formRegistro.html">Registrarse</a></li>
+            </ul>
+          </div>
+          <div class="footer__DatosCantacto">
+            <h4>Datos de Contacto</h4>
+
+            <p><em>Tel: (0381) - 4333555</em></p>
+            <p><em> E-mail: gabrielcano.86@gmail.com </em></p>
+            <p><em>Direccion: calle Fernando Paz 1568 - SM de Tucumán</em></p>
+          </div>
+        </nav>
+
+        <div class="footer__ContRsocial">
+          <ul class="footer__contRsocial_list">
+            <li>
+              <a href="https://www.facebook.com/">
+                <img
+                  class="icono_Rsocial"
+                  src="./medias/Icono_Facebook.svg"
+                  alt="icono de Icono_Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/">
+                <img
+                  class="icono_Rsocial"
+                  src="./medias/icono-twitter.svg"
+                  alt="icono de Icono_twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/">
+                <img
+                  class="icono_Rsocial"
+                  src="./medias/icono-Instagram.svg"
+                  alt="icono de Icono_Instagram"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__cont_down">
+        <small>&copy Derechos reservados a Gabriel Eduardo Cano</small>
+      </div>
+    </footer>
+    <!-- Script bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
