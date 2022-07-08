@@ -232,6 +232,21 @@ section {
   .categ__contImg {
     width: 18% !important;
   }
+
+  /* publicidad de Reg contact animado */
+  .publicidad__cont {
+    display: none !important;
+  }
+
+  /* Form Contactame */
+
+  .main__formContacto_cont {
+    justify-content: center !important;
+  }
+
+  .formContacto__cont {
+    width: 100% !important;
+  }
 } /* FIn Mobile */
 
 /* INDEX */
@@ -736,7 +751,7 @@ button {
   flex-direction: row;
   display: flex;
   align-content: center;
-  justify-content: space-between;
+  justify-content: start;
   width: 80%;
 }
 .formContacto__cont {
@@ -746,37 +761,24 @@ button {
   border: 1px solid black;
   padding: 1%;
   margin: 1%;
-  width: 40%;
-  max-height: 315px;
-}
-.formContacto__cont label {
-  margin: 1%;
+  width: 55%;
+  /* max-height: 315px;*/
 }
 .formContacto__cont h3 {
   text-align: center;
+  margin-bottom: 2%;
 }
-.formContacto__buttonEnviar {
-  background: #000;
-  color: white;
-  display: flex;
-  justify-self: center;
-  align-self: center;
-  width: 40%;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  padding: 0.5rem;
-  margin: 3% 0% auto;
-  border-radius: 2rem;
-  font-size: 1rem;
-  opacity: 100%;
-  transition: all 1s;
+
+.regContact__button {
+  width: 50%;
+  margin: 5%;
 }
-.formContacto__buttonEnviar:hover {
-  background: #fdc43f;
-  color: #000;
-  transition: all 1s;
-  opacity: 80%;
+
+/* Card publicidad */
+
+.regContact__CardPublicidad {
+  border-radius: 20%;
+  padding: 0.5%;
 }
 
 /* Publicidad - agrgamos Animacion */
@@ -789,6 +791,7 @@ button {
   width: 15%;
   display: flex;
   align-self: center;
+  height: 26rem;
 }
 
 @keyframes publicidad {
