@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); /* paleta de colores:
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* paleta de colores:
 #fff15b
 #fdc43f
 #b29168
@@ -258,12 +259,15 @@ main {
     border-bottom: 1px solid gray;
     justify-items: center;
   }
+
   .cont_menu1 {
     width: 100%;
   }
+
   .menu1__Option {
     display: none !important;
   }
+
   .container__header {
     color: white;
     width: 100vw;
@@ -273,9 +277,11 @@ main {
     align-items: center;
     margin-bottom: 0.5%;
   }
+
   .cont_header_down {
     display: none !important;
   }
+
   .cont_header_up {
     max-width: 1200px;
     width: 100%;
@@ -286,17 +292,21 @@ main {
     justify-content: space-between;
     flex-direction: row;
   }
+
   .cont_header_up ul {
     align-items: flex-start !important;
   }
+
   .cont_header_up ul li {
     margin-top: 0.2rem;
     margin-bottom: 0.2rem;
   }
+
   .header__menu_hamburg {
     width: 20% !important;
     background-color: #fff15b !important;
   }
+
   .cont_titl_log {
     width: 100%;
     display: flex;
@@ -305,25 +315,30 @@ main {
     color: white;
     text-shadow: -2px -2px 3px black;
   }
+
   .cont_title {
     font-size: 1.5rem;
     display: flex;
     align-items: center;
   }
+
   .logo_cont {
     height: 100%;
     width: 3rem;
   }
+
   .cont_form_buscar {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80%;
   }
+
   .cont_icon_buscar {
     width: 2.1rem !important;
     padding: 0px !important;
   }
+
   .cont_input_buscar {
     border-bottom: 1px solid black;
     border-right: 1px solid black;
@@ -333,26 +348,32 @@ main {
     padding: 4px;
     background-color: white;
   }
+
   .input_buscar {
     font-size: 1rem !important;
   }
+
   .icon_Buscar {
     width: 98% !important;
   }
+
   .cont_rsocial {
     display: none !important;
   }
+
   .cont_menu1 {
     width: 100%;
     display: flex;
     justify-content: center;
   }
+
   .cont_menu2 {
     display: none;
     align-items: center;
     justify-content: center;
     width: 100%;
   }
+
   nav {
     height: 100%;
     width: 100%;
@@ -362,6 +383,7 @@ main {
     padding: 0px;
     flex-direction: column;
   }
+
   /* tarejtas articulos destacados */
   .tarjetas__Cont {
     display: flex;
@@ -370,6 +392,7 @@ main {
     align-content: center;
     flex-direction: column;
   }
+
   .tarjetaArt__cont {
     position: relative;
     display: flex;
@@ -381,56 +404,71 @@ main {
     width: 100% !important;
     box-shadow: 3px 4px 11px 0px black;
   }
+
   .tarjetaArt__cont:focus {
     background: rgba(0, 0, 0, 0.4117647059);
     opacity: 1;
     transition: all 1s;
   }
+
   .artTitle__cont {
     justify-content: center !important;
   }
+
   .categ__subTitle {
     text-align: center;
   }
+
   /* ART MAS VENDIDOS */
   .artmasVend__ContCard {
     flex-direction: column;
     width: 100%;
   }
+
   /* Footer mobile */
   .footer__cont_up {
     flex-direction: column;
   }
+
   .footer_ContLogo {
     width: 100% !important;
   }
+
   .footer__ContMenu {
     width: 100% !important;
   }
+
   .icono_Rsocial {
     width: 2rem !important;
   }
+
   .categ__link {
     font-size: 1rem !important;
   }
+
   .circulo__none {
     display: none !important;
   }
+
   .categ__contImg {
     width: 18% !important;
   }
+
   /* publicidad de Reg contact animado */
   .publicidad__cont {
     display: none !important;
   }
+
   /* Form Contactame */
   .main__formContacto_cont {
     justify-content: center !important;
   }
+
   .formContacto__cont {
     width: 100% !important;
   }
-} /* FIn Mobile */
+}
+/* FIn Mobile */
 /* INDEX */
 /* section Articulos Mas vendidos */
 .artmasVend__ContCard {
