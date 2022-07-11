@@ -187,7 +187,9 @@ main {
 
   .artmasVend__ContCard {
     flex-direction: column;
+    width: 100%;
   }
+
   /* Footer mobile */
   .footer__cont_up {
     flex-direction: column;
@@ -235,6 +237,7 @@ main {
   border: 0px !important;
   flex-direction: row;
   justify-content: center;
+  width: 100vw;
 }
 .artmasVend__Card {
   border: 1px solid gray;
@@ -528,23 +531,40 @@ footer {
 
 /* CARRITO */
 
-table {
-  margin: 5%;
-  display: flex;
-  align-content: center;
-  flex-direction: column;
+.carrito__art_link{
+  align-content:center;
+  justify-content: space-evenly;
+  margin: 1rem !important ;
+  a{
+    color: gray  !important;
+    &hover{
+      color: red !important;
+    }
+  }
+ 
+
+
+}
+.carrito__text_art{
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.carrito__cont_text_art{
+align-self: center;
+justify-content: center;
+flex-direction: column;
+h4{
+  text-align: center;
+  color: gray;
+  font-size: 1rem;
+}
+h1{
+  color: gray;
+  text-align: center;
+}
+}
+.carrito__cont_cant_art{
   justify-content: center;
-}
-
-table th {
-  text-align: center;
-}
-table td {
-  text-align: center;
-}
-
-button {
-  width: 100%;
 }
 
 /* QUIENES SOMOS */
