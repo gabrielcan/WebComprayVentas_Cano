@@ -10,6 +10,66 @@
   <body>
     <header class="container__header">
       <div class="cont_header_up">
+        <nav
+          class="navbar navbar-expand-lg d-sm-none d-md-none d-xl-none header__menu_hamburg"
+        >
+          <div class="container">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="/index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/secciones/formVender.html">Vender</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/secciones/formContacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/secciones/quienesSomos.html">Quienes somos?</a>
+                </li>
+                <li class="nav-item mb-1">
+                  <a href="/secciones/carrito.html">
+                    <img src="/medias/Icono Carrito.svg" alt="" /> Carrito</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <div class="cont_form_buscar">
+                    <a href="#"
+                      ><div class="cont_icon_buscar">
+                        <img
+                          class="icon_Buscar"
+                          src="/medias/icono-Buscar.svg"
+                          alt=""
+                        /></div
+                    ></a>
+                    <div class="cont_input_buscar">
+                      <input
+                        class="input_buscar"
+                        type="search"
+                        name="buscador"
+                        id=""
+                        placeholder="Buscar articulos"
+                      />
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
         <a href="/index.html">
           <div class="cont_titl_log">
             <div class="cont_title"><h3>Shop-G</h3></div>
@@ -22,7 +82,7 @@
             </div>
           </div>
         </a>
-        <div class="cont_form_buscar">
+        <div class="cont_form_buscar d-none d-sm-flex">
           <a href="#"
             ><div class="cont_icon_buscar">
               <img
@@ -48,7 +108,7 @@
               <a href="https://www.facebook.com/">
                 <img
                   class="icono_Rsocial"
-                  src="/medias/Icono_Facebook.svg"
+                  src="./medias/Icono_Facebook.svg"
                   alt="icono de Icono_Facebook"
               /></a>
             </li>
@@ -76,19 +136,25 @@
         <nav>
           <div class="cont_menu1">
             <ul>
-              <li><a href="#">Categorias</a></li>
-              <li><a href="#">Ofertas</a></li>
+              <li class="menu1__Option">
+                <a href="#">Categorias</a>
+              </li>
+              <li class="menu1__Option"><a href="#">Ofertas</a></li>
               <li><a href="/secciones/formVender.html">Vender</a></li>
-              <li><a href="/secciones/quienesSomos.html">Quines somos?</a></li>
+              <li>
+                <a href="/secciones/quienesSomos.html">Quienes somos?</a>
+              </li>
               <li><a href="/secciones/formContacto.html">Contacto</a></li>
-              <li><a href="#">Ayuda</a></li>
+              <li class="menu1__Option"><a href="#">Ayuda</a></li>
             </ul>
           </div>
           <div class="cont_menu2">
             <div>
               <ul>
                 <li><a href="#">Login</a></li>
-                <li><a href="/secciones/formRegistro.html">Registrarse</a></li>
+                <li>
+                  <a href="/secciones/formRegistro.html">Registrarse</a>
+                </li>
                 <li><a href="#">Compras</a></li>
               </ul>
             </div>
@@ -211,8 +277,8 @@
     </main>
 
     <!-- inincio Footer -->
-    <footer>
-      <div class="footer__cont_up">
+    <footer class="container-fluid">
+      <div class="footer__cont_up container">
         <div class="footer_ContLogo">
           <a href="/index.html">
             <div class="cont_titl_log">
@@ -234,16 +300,16 @@
             <ul>
               <li><a href="/secciones/formContacto.html">Contacto</a></li>
               <li><a href="/secciones/formVender.html">Vender</a></li>
-              <li><a href="/secciones/quienesSomos.html">Quines somos?</a></li>
-              <li><a href="/secciones/formRegistro.html">Registrarse</a></li>
+              <li><a href="/secciones/quinesSomos.html">Quienes somos?</a></li>
             </ul>
           </div>
           <div class="footer__DatosCantacto">
             <h4>Datos de Contacto</h4>
 
             <p><em>Tel: (0381) - 4333555</em></p>
-            <p><em> E-mail: gabrielcano.86@gmail.com </em></p>
-            <p><em>Direccion: calle Fernando Paz 1568 - SM de Tucumán</em></p>
+
+            <p><em>E-mail: gabrielcano.86@gmail.com </em></p>
+            <p><em>Domicilio: calle Fernando Paz 1568 - SM de Tucumán</em></p>
           </div>
         </nav>
 
@@ -276,7 +342,7 @@
           </ul>
         </div>
       </div>
-      <div class="footer__cont_down">
+      <div class="footer__cont_down container">
         <small>&copy Derechos reservados a Gabriel Eduardo Cano</small>
       </div>
     </footer>
