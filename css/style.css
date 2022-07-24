@@ -423,6 +423,19 @@ main {
   .publicidad__cont {
     display: none !important;
   }
+  /* Regitros */
+  .formRegistpublicidad__cont {
+    display: none !important;
+  }
+  .formRegist__cont {
+    width: 100% !important;
+  }
+  .main__formRegist_cont {
+    width: 90%;
+  }
+  .formRegist__condiciones {
+    margin: 2% !important;
+  }
   /* Form Contactame */
   .main__formContacto_cont {
     justify-content: center !important;
@@ -441,6 +454,25 @@ main {
   }
   .carrito__cont_art {
     margin-bottom: 2% !important;
+  }
+  .categ__contImg1 {
+    display: none !important;
+  }
+  /* form vender */
+  .formVenderpublicidad__cont {
+    display: none !important;
+  }
+  .formVender__cont {
+    width: 100% !important;
+  }
+  .formVender__condiciones {
+    margin: 2% !important;
+  }
+  .main__formVender_cont {
+    width: 95%;
+  }
+  .publ__cont {
+    flex-direction: column;
   }
 } /* FIn Mobile */
 /* INDEX */
@@ -596,6 +628,19 @@ footer {
 }
 
 .categ__contImg {
+  width: 15%;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0.25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: -5px 3px 11px 0px black;
+}
+
+.categ__contImg1 {
   width: 15%;
   border-radius: 100%;
   overflow: hidden;
@@ -971,6 +1016,7 @@ footer {
   display: flex;
   align-content: center;
   justify-content: space-between;
+  height: 40rem;
 }
 
 .formRegist__cont {
@@ -981,7 +1027,7 @@ footer {
   padding: 1%;
   margin: 1%;
   width: 40%;
-  max-height: 500px;
+  max-height: 38rem;
   text-align: center;
   border-radius: 2rem;
   box-shadow: -2px 2px 10px 2px black;
