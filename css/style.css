@@ -397,6 +397,9 @@ main {
     flex-direction: column;
     width: 100%;
   }
+  .artmasVend__Card {
+    padding: 1rem;
+  }
   /* Footer mobile */
   .footer__cont_up {
     flex-direction: column;
@@ -491,8 +494,8 @@ main {
   max-width: 35rem;
   justify-self: center;
   align-items: center;
-  padding: 0.3%;
-  margin: 0.1% !important;
+  margin: 0.2% !important;
+  padding: 0.7rem;
 }
 
 /* Foooter */
