@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); /* paleta de colores:
 #fff15b
 #fdc43f
@@ -7,6 +8,7 @@
 #060608
 */
 /* VARIABLES GLOBALES */
+/* tamaño text menu header */
 header {
   width: 100vw !important;
   font-family: "Poppins", sans-serif;
@@ -51,7 +53,7 @@ section {
 .cont_menu1 ul li {
   display: inline;
   padding: 0.2rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .cont_menu1 ul li a {
@@ -72,7 +74,7 @@ section {
   align-content: center;
   display: inline;
   padding: 0.2rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .cont_menu2 ul li a {
@@ -135,13 +137,13 @@ section {
   border-top: 1px solid black;
   border-radius: 0rem 2rem 2rem 0rem;
   z-index: 80;
-  padding: 4px;
+  /* padding: 1%; */
   background-color: white;
 }
 
 .cont_icon_buscar {
   height: 100%;
-  width: 2.8rem;
+  width: 1.59rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -158,11 +160,12 @@ section {
 }
 
 .input_buscar {
-  font-size: 1.5rem;
+  font-size: 1rem;
   border: transparent;
   outline: none;
   z-index: 2;
   background: none;
+  text-align: center;
 }
 
 .buton_buscar {
@@ -215,6 +218,7 @@ section {
 #060608
 */
 /* VARIABLES GLOBALES */
+/* tamaño text menu header */
 /* paleta de colores:
 #fff15b
 #fdc43f
@@ -320,21 +324,16 @@ main {
     align-items: center;
     height: 80%;
   }
-  .cont_icon_buscar {
-    width: 2.1rem !important;
-    padding: 0px !important;
-  }
   .cont_input_buscar {
     border-bottom: 1px solid black;
     border-right: 1px solid black;
     border-top: 1px solid black;
     border-radius: 0rem 2rem 2rem 0rem;
     z-index: 80;
-    padding: 4px;
     background-color: white;
   }
   .input_buscar {
-    font-size: 1rem !important;
+    font-size: 0.9rem !important;
   }
   .icon_Buscar {
     width: 98% !important;

@@ -42,7 +42,7 @@ section {
 .cont_menu1 ul li {
   display: inline;
   padding: 0.2rem;
-  font-size: 1.2rem;
+  font-size: $size_text;
 }
 
 .cont_menu1 ul li a {
@@ -63,7 +63,7 @@ section {
   align-content: center;
   display: inline;
   padding: 0.2rem;
-  font-size: 1.2rem;
+  font-size: $size_text;
 }
 
 .cont_menu2 ul li a {
@@ -123,12 +123,12 @@ section {
   border-top: 1px solid black;
   border-radius: 0rem 2rem 2rem 0rem;
   z-index: 80;
-  padding: 4px;
+  /* padding: 1%; */
   background-color: white;
 }
 .cont_icon_buscar {
   height: 100%;
-  width: 2.8rem;
+  width: 1.59rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -144,11 +144,12 @@ section {
 }
 
 .input_buscar {
-  font-size: 1.5rem;
+  font-size: $size_text;
   border: transparent;
   outline: none;
   z-index: 2;
   background: none;
+  text-align: center;
 }
 .buton_buscar {
   width: 4rem;
