@@ -143,7 +143,7 @@ section {
 
 .cont_icon_buscar {
   height: 100%;
-  width: 1.59rem;
+  width: 1.58rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -227,7 +227,16 @@ section {
 #d8d9de
 #060608
 */
+/* Generamos $esilosComunes para usar el "map-get" */
 /* INICIO cambios globales */
+main {
+  font-family: "Roboto" sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -242,14 +251,6 @@ a {
 
 body {
   display: flex;
-  flex-direction: column;
-}
-
-main {
-  font-family: "Roboto", sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 
@@ -384,9 +385,6 @@ main {
     background: rgba(0, 0, 0, 0.4117647059);
     opacity: 1;
     transition: all 1s;
-  }
-  .artTitle__cont {
-    justify-content: center !important;
   }
   .categ__subTitle {
     text-align: center;
@@ -725,18 +723,26 @@ footer {
   flex-direction: column;
 }
 
-.subt__Section {
+/* INICIO aplicamos Mixins y extend*/
+.artTitle__cont, .subt__Section {
   font-family: proxima-nova, sans-serif;
   font-style: normal;
   font-weight: 100;
-  color: #9d9d9d;
-  /* text-align: start; */
   display: flex;
   justify-content: start;
   align-items: self-end;
   width: 100%;
 }
 
+.subt__Section {
+  color: #9d9d9d;
+}
+
+.artTitle__cont {
+  color: #6c6c6e;
+}
+
+/* FIN aplicamos Mixins y extend*/
 .tarjetas__Cont {
   display: flex;
   margin: auto;
@@ -832,6 +838,16 @@ footer {
   align-items: flex-end;
 }
 
+/* Inicio Aplicacion Map */
+.carrito__cont_title.uno {
+  color: black;
+}
+
+.carrito__cont_title.dos {
+  color: orange;
+}
+
+/* Fin Aplicamos Map */
 .carrito__cont_art {
   width: 80%;
   margin-bottom: 0.3%;
